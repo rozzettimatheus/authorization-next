@@ -1,0 +1,39 @@
+.headerDashboard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .headerDashboard {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
+
+.signOutButton {
+  height: 40px;
+  padding: 10px 20px;
+  border: 0;
+  background-color: var(--accent);
+  color: var(--white);
+  font-weight: 600;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.metrics {
+  width: 100%;
+  max-width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: var(--accent);
+  font-size: 30px;
+  font-weight: bold;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}

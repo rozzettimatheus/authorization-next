@@ -1,0 +1,36 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+:root {
+  --accent: rgb(130, 87, 229);
+  --primary-900: #121214;
+  --primary-800: #202024;
+  --primary-500: #606061;
+  --white: #fefefe;
+}
+
+body {
+  width: 100%;
+  background-color: var(--primary-900);
+  color: var(--white);
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  padding: 0 24px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
